@@ -1,0 +1,29 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="jp.techacademy.naoto.ichihashi.qa_app.MainActivity">
+
+<!--    デフォルトではitemはオーバーフローメニュー【…】に格納され、タップ時に箇条書きで出てくる-->
+<!--    アイコン変更する場合はandroid:iconの指定、showAsAction:"always"or "ifRoom"の指定が必要-->
+<!--    アイコン表示した場合はテキストが表示されず、タップされたら直接リスナが呼ばれる-->
+<!--    なお、res/drawable右クリック New/Vector Asset でAndroid標準付属アイコンを選択可能-->
+
+<!--　　アイコン変更用の"親"itemを用意-->
+    <item
+        android:id="@+id/icon_display"
+        android:orderInCategory="100"
+        android:title="@string/menu_text"
+        android:icon="@drawable/ic_settings_24dp"
+        app:showAsAction="ifRoom">
+
+<!--    親Itemがタップされた時にオーバーフローで表示される"子"メニューを作成-->
+<!--    ActivityのonOptionsItemSelectedには"子"メニューidに対する処理を実装-->
+<!--    更にネストして"子"の"子"メニューを作っていくことも可能-->
+        <menu>
+            <item
+                android:id="@+id/action_settings"
+                android:orderInCategory="100"
+                android:title="@string/menu_text"/>
+        </menu>
+    </item>
+</menu>

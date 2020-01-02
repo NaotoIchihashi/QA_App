@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">QA_App</string>
+    <string name="action_settings">Settings</string>
+    <string name="pass_edit_text">パスワード(6文字)以上</string>
+    <string name="name_edit_text">表示名</string>
+    <string name="email_edit_text">メールアドレス</string>
+    <string name="login_button_text">ログイン</string>
+    <string name="create_button_text">アカウント作成</string>
+    <string name="item1_text">趣味</string>
+    <string name="item2_text">生活</string>
+    <string name="item3_text">健康</string>
+    <string name="item4_text">コンピューター</string>
+    <string name="header_text">ジャンル選択</string>
+    <string name="change_button_text">変更</string>
+    <string name="logout_button_text">ログアウト</string>
+    <string name="menu_text">設定</string>
+    <string name="question_title_text">タイトル</string>
+    <string name="question_body_text">質問内容</string>
+    <string name="figure_attach_text">添付画像</string>
+    <string name="post_text">投稿</string>
+    <string name="answer_text">回答</string>
+    <string name="favorite_button_text">お気に入り</string>
+    <string name="favorite_intent_button_text">お気に入り一覧</string>
+    <string name="questionSendActivity_title">質問作成</string>
+</resources>
